@@ -2,42 +2,122 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/images/fub1.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="grocery store online grocery fill ur basket"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>Fill Ur Basket</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/fub1.png" sizes="32x32" />
+    <meta name="keywords" content="Shopping Simplified" />
+    <meta name="description" content="Fill your Basket" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"></script>
+    <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+    <script src="https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
+    <script
+      src="https://kit.fontawesome.com/51934344ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/fub1.png" sizes="32x32" />
+    <meta name="keywords" content="Shopping Simplified" />
+    <meta name="description" content="Fill your Basket" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"></script>
+    <script src="script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></script>
+    <script src="https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css"></script>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script>
+      //To do fix this and make as react function in *****this***** space
+      //Change jquery to javascript
+      // Never use jquery with react/angular/vue  it creates side effect as jquery is more into Dom
+      //manipulation and other libraries dont manipulate from dom and creates/regenerates from data
+      function test() {
+        var tabsNewAnim = $("#navbarSupportedContent");
+        var selectorNewAnim = $("#navbarSupportedContent").find("li").length;
+        var activeItemNewAnim = tabsNewAnim.find(".active");
+        var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+        var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+        var itemPosNewAnimTop = activeItemNewAnim.position();
+        var itemPosNewAnimLeft = activeItemNewAnim.position();
+        $(".hori-selector").css({
+          top: itemPosNewAnimTop.top + "px",
+          left: itemPosNewAnimLeft.left + "px",
+          height: activeWidthNewAnimHeight + "px",
+          width: activeWidthNewAnimWidth + "px"
+        });
+        $("#navbarSupportedContent").on("click", "li", function(e) {
+          $("#navbarSupportedContent ul li").removeClass("active");
+          $(this).addClass("active");
+          var activeWidthNewAnimHeight = $(this).innerHeight();
+          var activeWidthNewAnimWidth = $(this).innerWidth();
+          var itemPosNewAnimTop = $(this).position();
+          var itemPosNewAnimLeft = $(this).position();
+          $(".hori-selector").css({
+            top: itemPosNewAnimTop.top + "px",
+            left: itemPosNewAnimLeft.left + "px",
+            height: activeWidthNewAnimHeight + "px",
+            width: activeWidthNewAnimWidth + "px"
+          });
+        });
+      }
+      //To fix
+      //can use in cdm of header
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      $(document).ready(function() {
+        setTimeout(function() {
+          test();
+        });
+      });
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      //To fix
+      // add resize window event listener in header cdm
+      $(window).on("resize", function() {
+        setTimeout(function() {
+          test();
+        }, 500);
+      });
+
+      //To fix
+      // navbar toggler onclick function
+      $(".navbar-toggler").click(function() {
+        setTimeout(function() {
+          test();
+        });
+      });
+    </script>
   </body>
 </html>

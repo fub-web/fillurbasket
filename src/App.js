@@ -6,6 +6,8 @@ import "./App.scss";
 import Home from "./components/Home";
 import Profile from "./components/Profile/Profile";
 import Routes from "./Routes";
+import Header from "./components/common/header/header";
+import Footer from "./components/common/footer/footer";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -15,12 +17,15 @@ class App extends Component {
     this.props.simpleAction();
   };
   render() {
+    console.log("app called");
     return (
       <Fragment>
         {/* <button onClick={this.simpleAction}>Test redux action</button>
-          <pre>{JSON.stringify(this.props)}</pre>
-          <h1 className="float-centre">Hello Team !</h1> */}
+            <pre>{JSON.stringify(this.props)}</pre>
+            <h1 className="float-centre">Hello Team !</h1> */}
+        <Header />
         <Routes />
+        <Footer />
       </Fragment>
     );
   }
