@@ -8,6 +8,8 @@ import Profile from "./components/Profile/Profile";
 import Routes from "./Routes";
 import Header from "./components/common/header/header";
 import Footer from "./components/common/footer/footer";
+import ProductCard from "./components/ProductCard";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -25,6 +27,7 @@ class App extends Component {
             <h1 className="float-centre">Hello Team !</h1> */}
         <Header />
         <Routes />
+		<ProductCard />
         <Footer />
       </Fragment>
     );
