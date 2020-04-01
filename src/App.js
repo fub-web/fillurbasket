@@ -9,6 +9,7 @@ import Routes from "./Routes";
 import Header from "./components/common/header/header";
 import Footer from "./components/common/footer/footer";
 import ProductCard from "./components/ProductCard";
+import TeamPage from "./components/team";
 
 class App extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class App extends Component {
             <h1 className="float-centre">Hello Team !</h1> */}
         <Header />
         <Routes />
-		<ProductCard />
+		<TeamPage />
         <Footer />
       </Fragment>
     );

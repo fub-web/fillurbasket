@@ -18,7 +18,7 @@ class ProductCard extends Component {
 							<FontAwesomeIcon icon="fa-share-alt " alt="share" />
 							<FontAwesomeIcon icon="fas fa-heart" alt="favorite_border" />
 						</div>
-						<img src="./images/green-apple-with-slice.png" alt="green apple slice" />									
+						<img src=".components/images/green-apple-with-slice.png" alt="green apple slice" />									
 					</div>
 					<div class="photo-album">
 						<ul>
