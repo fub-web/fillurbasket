@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from "../Image";
 
 class Footer extends Component {
   render() {
@@ -133,7 +134,7 @@ class Footer extends Component {
                   </div>
                   <div>
                     <a className="navbar-brand footerbar-logo" href="#">
-                      <img className="footer-logo" src="images/fub1.png" />
+                      <Image className="footer-logo" src="images/fub1.png" />
                     </a>
                   </div>
                 </div>

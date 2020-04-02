@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../common.scss";
 import $ from "jquery";
+import Image from "../Image";
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -42,12 +43,11 @@ class Header extends Component {
   //   };
 
   render() {
-    console.log("header called");
     return (
       <header>
         <nav className="navbar navbar-expand-lg navbar-mainbg">
           <a className="navbar-brand navbar-logo" href="#">
-            <img className="nav-logo" src="../images/fub1.png" />
+            <Image className="nav-logo" src="images/fub1.png" />
           </a>
           <button
             className="navbar-toggler"

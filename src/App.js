@@ -28,7 +28,8 @@ class App extends Component {
             <h1 className="float-centre">Hello Team !</h1> */}
         <Header />
         <Routes />
-		<TeamPage />
+        <TeamPage />
+        <ProductCard />
         <Footer />
       </Fragment>
     );
