@@ -47,7 +47,8 @@ class ProductCard extends Component {
               <span>COD: 45999</span>
             </div>
             <div class="price">
-              &#x20b9 <span>7.93</span>
+			<span class="inr">&#8377;</span>
+			<span>7.93</span>
             </div>
             <div class="variant">
               <h3>SELECT A COLOR</h3>

@@ -37,6 +37,8 @@
 	min-width: 600px;
 	background-color: white;
 	border-radius: 5px;
+	width: 25%;
+	
   }
   
   /* ----- Photo Section ----- */
@@ -74,7 +76,7 @@
   .photo-main img {
 	position: absolute;
 	left: -3.9em;
-	top: 5em;
+	top: 6em;
 	max-width: 120%;
 	-webkit-filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
 			filter: saturate(150%) contrast(120%) hue-rotate(10deg) drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
@@ -112,6 +114,10 @@
   /* ----- Informations Section ----- */
   .product__info {
 	padding: 0.8em 0;
+  }
+  
+  .inr {
+	content: "\20B9";
   }
   
   .title h1 {
