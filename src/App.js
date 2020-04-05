@@ -6,6 +6,7 @@ import "./App.scss";
 import Home from "./components/Home";
 import Profile from "./components/Profile/Profile";
 import Routes from "./Routes";
+import Markup from "./components/markup";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -20,7 +21,8 @@ class App extends Component {
         {/* <button onClick={this.simpleAction}>Test redux action</button>
           <pre>{JSON.stringify(this.props)}</pre>
           <h1 className="float-centre">Hello Team !</h1> */}
-        <Routes />
+        {/* <Routes /> */}
+        <Markup />
       </Fragment>
     );
   }
