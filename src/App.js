@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
-
 import { simpleAction } from "./actions/simpleAction";
 import "./App.scss";
 import Home from "./components/Home";
