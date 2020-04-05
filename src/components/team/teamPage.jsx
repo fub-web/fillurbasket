@@ -9,14 +9,13 @@ class TeamPage extends Component {
   render() {
     return (
       <div>
-        <section>
-          <Image src="" alt="Background" />
+        <section class="team">
           <h3>Meet the team</h3>
 
           <div class="team-list">
-            <article>
+            <article >
               <div>
-                <h5>Aman</h5>
+			    <h5>Aman</h5>
                 <p>CEO Co-Founder</p>
                 <a href="#">View bio</a>
               </div>
