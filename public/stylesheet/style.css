@@ -872,7 +872,7 @@ ul.currencies_list li a:hover {
     padding: 0px 5px;
     text-align: left;
     border-bottom: 1px #e5e5e5 solid;
-    border-top: 3px #80b435 solid;
+    border-top: 3px #ff6600 solid;
 }
 
 .fl-mini-cart-content .block-subtitle .price {
@@ -1023,7 +1023,7 @@ ul#cart-sidebar {
 }
 
 .mini-cart .actions .btn-checkout {
-    background: #80b435;
+    background: #ff6600;
     color: #fff;
     font-size: 14px;
     text-shadow: none;
@@ -1104,7 +1104,7 @@ background-color: #fff;
 .cms-index-index #nav #nav-home>a,
 #nav>li.active>a,
 .vertnav-top li.current>a {
-    color: #80b435;
+    color: #ff6600;
 }
 
 .cms-index-index #nav #nav-home>a,
@@ -1158,7 +1158,7 @@ background-color: #fff;
 }
 
 #nav ul.level1>li a:hover {
-    color: #80b435
+    color: #ff6600
 }
 
 #nav li a span {}
@@ -1517,7 +1517,7 @@ ul.level1 {
 }
 
 #nav>li>a {
-    color: #80b435;
+    color: #ff6600;
 }
 
 #nav>li.mega-menu {
@@ -1985,7 +1985,7 @@ ul.level1 {
 }
 
 #nav li.drop-menu ul li:hover>a {
-    color: #80b435;
+    color: #ff6600;
     padding-left: 18px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -2275,7 +2275,7 @@ ul.level1 {
     font-size: 11px;
     font-family: 'Rubik', sans-serif;
     color: #fff;
-    background: #80b435;
+    background: #ff6600;
     text-transform: uppercase;
     padding: 0px 10px;
     text-align: center;
@@ -5089,7 +5089,7 @@ text-transform: uppercase
 }
 
 .best-pro .new_title h4 {
-    background: #80b435;
+    background: #ff6600;
     color: #fff;
     padding: 6px 10px;
     border-radius: 3px;
@@ -5143,7 +5143,7 @@ text-transform: uppercase
 
 .best-pro.slider-items-products .owl-buttons .owl-prev a:hover:before,
 .best-pro.slider-items-products .owl-buttons .owl-next a:hover:before {
-    color: #80b435
+    color: #ff6600
 }
 
 #best-seller .owl-item .item.first {
@@ -5414,7 +5414,7 @@ text-transform: uppercase
 }
 
 .products-grid .btn-cart {
-    background: #80b435;
+    background: #ff6600;
     border: 5px #fff solid;
     box-shadow: none;
     color: #fff;
@@ -5677,7 +5677,7 @@ text-transform: uppercase
     margin-top: 60px;
     box-shadow: 0 5px 0 rgba(200, 200, 200, .2);
     border: 1px #e5e5e5 solid;
-    border-top: 5px #80b435 solid;
+    border-top: 5px #ff6600 solid;
     border-bottom: 1px #d5d5d5 solid
 }
 
@@ -5739,7 +5739,7 @@ text-transform: uppercase
     float: left;
     height: 90px;
     margin-right: 10px;
-    background: #80b435;
+    background: #ff6600;
     border-radius: 38px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: 0.5px
@@ -5886,7 +5886,7 @@ text-transform: uppercase
     color: #292929;
     text-transform: uppercase;
     border-bottom: 1px #eaeaea solid;
-    border-left: 2px #80b435 solid;
+    border-left: 2px #ff6600 solid;
 }
 
 .blog-side .widget-content {
@@ -6068,7 +6068,7 @@ blockquote:before {
 }
 
 .blog_entry .btn {
-    background: #80b435;
+    background: #ff6600;
     color: #fff;
     font-size: 14px;
     text-shadow: none;
@@ -6189,7 +6189,7 @@ blockquote:before {
 
 .post-meta li a {
     margin-right: 5px;
-    color: #80b435;
+    color: #ff6600;
     font-size: 13px;
 }
 
@@ -6220,7 +6220,7 @@ blockquote:before {
 .latest-blog .post-date {
     height: 80px;
     width: 80px;
-    background: #80b435;
+    background: #ff6600;
     position: absolute;
     display: inline-block;
     color: #fff;
@@ -6429,7 +6429,7 @@ blockquote:before {
     display: inline-block;
     text-decoration: none;
     padding: 12px 25px;
-    color: #80b435;
+    color: #ff6600;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -6443,7 +6443,7 @@ blockquote:before {
 }
 
 .blog-img a.info:hover {
-    background: #80b435;
+    background: #ff6600;
     color: #fff;
 }
 
@@ -6624,7 +6624,7 @@ blockquote:before {
     margin-right: 0;
     width: 20%;
     border: none;
-    background: #80b435;
+    background: #ff6600;
     float: right
 }
 
@@ -6693,12 +6693,12 @@ blockquote:before {
     display: block !important;
     font-size: 26px;
     margin: auto;
-    color: #80b435;
+    color: #ff6600;
     width: 65px !important;
     text-align: center;
     margin-bottom: 26px;
     line-height: 60px;
-    border: 2px #80b435 dotted;
+    border: 2px #ff6600 dotted;
     border-radius: 999px;
 }
 
@@ -7017,7 +7017,7 @@ blockquote:before {
     color: #292929;
     text-transform: uppercase;
     border-bottom: 1px #eaeaea solid;
-    border-left: 2px #80b435 solid;
+    border-left: 2px #ff6600 solid;
 }
 
 .block .block-title a {
@@ -7178,7 +7178,7 @@ ul#magicat li .open-close,
     color: #292929;
     text-transform: uppercase;
     border-bottom: 1px #eaeaea solid;
-    border-left: 2px #80b435 solid;
+    border-left: 2px #ff6600 solid;
 }
 
 /* Left Navigation End */
@@ -7282,7 +7282,7 @@ ul#magicat li .open-close,
 }
 
 .box-category>ul>li>a.active {
-    color: #80b435;
+    color: #ff6600;
     font-weight: 500;
     margin-bottom: 0;
     font-size: 14px;
@@ -7456,8 +7456,8 @@ ul#magicat li .open-close,
 }
 
 .one-page-checkout .active .step-title .number {
-    background: none repeat scroll 0 0 #80b435;
-    border: 1px solid #80b435;
+    background: none repeat scroll 0 0 #ff6600;
+    border: 1px solid #ff6600;
     color: #fff;
     padding: 10px 14px;
     font-weight: bold;
@@ -7465,7 +7465,7 @@ ul#magicat li .open-close,
 }
 
 .one-page-checkout .active .step-title h3 {
-    color: #80b435;
+    color: #ff6600;
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
@@ -8078,7 +8078,7 @@ button.button.continue:before {
 }
 
 .sidebar .block-cart .button-checkout {
-    background: #80b435;
+    background: #ff6600;
     border-radius: 999px;
     color: #fff;
     font-family: 'Rubik', sans-serif;
@@ -8395,7 +8395,7 @@ ol#compare-items li:last-child {
 }
 
 .block-compare .button-compare {
-    background: #80b435;
+    background: #ff6600;
     border-radius: 999px;
     color: #fff;
     font-family: 'Rubik', sans-serif;
@@ -8754,7 +8754,7 @@ ol#compare-items li:last-child {
 }
 
 .block-company li strong {
-    color: #80b435;
+    color: #ff6600;
     font-weight: 600;
     padding: 0 0px;
 }
@@ -9164,20 +9164,20 @@ ol#compare-items li:last-child {
 
 .toolbar span.button-active.button-grid {
     background: url(../images/icon_grid_act.png) no-repeat 9px 8px;
-    background-color: #80b435;
+    background-color: #ff6600;
     color: #fff;
     padding: 7px 8px 8px 22px;
     margin-right: 5px;
-    border: 1px #80b435 solid;
+    border: 1px #ff6600 solid;
     border-radius: 0px;
 }
 
 .toolbar span.button-active.button-list {
     background: url(../images/icon_list_act.png) no-repeat 10px 7px;
-    background-color: #80b435;
+    background-color: #ff6600;
     color: #fff;
     padding: 6px 11px 7px 22px;
-    border: 1px #80b435 solid;
+    border: 1px #ff6600 solid;
     border-radius: 0px;
 }
 
@@ -9402,7 +9402,7 @@ li .list {
     letter-spacing: 0.5px;
     border: none;
     vertical-align: top;
-    background-color: #80b435;
+    background-color: #ff6600;
     border-radius: 999px;
 }
 
@@ -9530,12 +9530,12 @@ li .list {
 
 .products-list .actions .add-to-links a.link-wishlist:hover {
     color: #fff;
-    background: #80b435
+    background: #ff6600
 }
 
 .products-list .actions .add-to-links a.link-compare:hover {
     color: #fff;
-    background: #80b435
+    background: #ff6600
 }
 
 ul.products-grid {
@@ -10021,7 +10021,7 @@ ul.shipping-pro li {
 
 .product-view .product-shop .add-to-box .btn-cart:hover {
     color: #fff;
-    background-color: #80b435;
+    background-color: #ff6600;
 }
 
 .product-view .product-shop .product-options-bottom .btn-cart {
@@ -10505,7 +10505,7 @@ ul.shipping-pro li {
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
     border: none;
-    background: none repeat scroll 0 0 #80b435;
+    background: none repeat scroll 0 0 #ff6600;
     color: #fff;
     border-radius: 10px 10px 0px 0px
 }
@@ -10552,7 +10552,7 @@ textarea {
     color: #fff;
     padding: 0 35px;
     border-radius: 999px;
-    background: #80b435;
+    background: #ff6600;
     border: none;
     width: auto;
     font-family: 'Rubik', sans-serif;
@@ -10625,7 +10625,7 @@ button.button.btn-add:before {
 }
 
 .comment-form .bnt-comment {
-    background: #80b435;
+    background: #ff6600;
     color: #fff;
     font-size: 14px;
     text-shadow: none;
@@ -10778,7 +10778,7 @@ button.button.btn-add:before {
     color: #fff;
     padding: 0 35px;
     border-radius: 999px;
-    background: #80b435;
+    background: #ff6600;
     border: none;
     width: auto;
     font-family: 'Rubik', sans-serif;
@@ -12078,8 +12078,8 @@ button.button.btn-share:before {
     letter-spacing: 1.5px;
     margin-right: 10px;
     border-radius: 999px;
-    border: 2px #80b435 solid;
-    background: #80b435
+    border: 2px #ff6600 solid;
+    background: #ff6600
 }
 
 .checkout-progress li.last {
@@ -12299,7 +12299,7 @@ button.button.new-address:before {
 }
 
 button.button.create-account {
-    background: #80b435;
+    background: #ff6600;
     color: #fff
 }
 
@@ -12530,7 +12530,7 @@ button.button.login:before {
 }
 
 .newsletter-col {
-    background: #80b435
+    background: #ff6600
 }
 
 .newsletter {
@@ -12795,7 +12795,7 @@ footer h4 {
     padding: 0 0 18px;
     font-size: 16px;
     margin: 0;
-    color: #80b435;
+    color: #ff6600;
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
@@ -13334,7 +13334,7 @@ button.button {
 }
 
 button.button:hover {
-    background-color: #80b435;
+    background-color: #ff6600;
     color: #fff;
 }
 
@@ -14093,7 +14093,7 @@ button.button span span {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #80b435;
+    color: #ff6600;
     margin-top: 20px;
     background: #fff;
     letter-spacing: 1px;
@@ -14145,7 +14145,7 @@ button.button span span {
     margin: 11% 0px;
     position: absolute;
     width: 48.5%;
-    border-left: 5px #80b435 solid;
+    border-left: 5px #ff6600 solid;
     padding-left: 30px;
     padding-bottom: 30px;
     padding-top: 20px
@@ -14156,7 +14156,7 @@ button.button span span {
 }
 
 .small-tag {
-    color: #80b435;
+    color: #ff6600;
     display: inline-block;
     padding: 8px 0px;
     text-transform: uppercase;
@@ -14238,7 +14238,7 @@ button.button span span {
 }
 
 .category-description .slider-items-products .owl-buttons a:hover {
-    background: #80b435;
+    background: #ff6600;
     opacity: 1;
     border: none;
     color: #fff;
@@ -14557,7 +14557,7 @@ button.button span span {
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
-    color: #80b435;
+    color: #ff6600;
 }
 
 .my-account .group-select h2 {
@@ -14866,7 +14866,7 @@ button.button span span {
 }
 
 .newsletter-sign-box .subscribe {
-    background: #80b435;
+    background: #ff6600;
     color: #fff;
     font-size: 14px;
     text-shadow: none;
@@ -15079,7 +15079,7 @@ button.btn-share,
     margin-top: -2px;
     height: 40px;
     cursor: pointer;
-    color: #80b435;
+    color: #ff6600;
 }
 
 .fl-links .links {
@@ -15147,7 +15147,7 @@ button.btn-share,
     transition: all 0.3s ease-in-out 0s;
     -webkit-transform: scale(1.0) rotate(0deg);
     transform: scale(1.0) rotate(0deg);
-    border-top: 3px #80b435 solid;
+    border-top: 3px #ff6600 solid;
     box-shadow: 0 10px 20px -5px;
 }
 
@@ -15442,7 +15442,7 @@ button.btn-share,
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    color: #80b435
+    color: #ff6600
 }
 
 .clients_author span {

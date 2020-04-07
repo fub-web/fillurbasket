@@ -23,7 +23,7 @@ html {
     margin-right: 6px;
     height: 40px;
     cursor: pointer;
-    color: #80b435;
+    color: #ff6600;
     font-style: normal;
 }
 
@@ -233,7 +233,7 @@ html {
     display: block;
     overflow: hidden;
     white-space: normal;
-    color: #80b435;
+    color: #ff6600;
     text-decoration: none;
     padding: 10px;
     padding-left: 15px;
@@ -341,7 +341,7 @@ html {
 
 .mm-toggle .icon-align-justify:before {
     vertical-align: middle !important;
-    color: #80b435
+    color: #ff6600
 }
 
 @media (max-width: 767px) {

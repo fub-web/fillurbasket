@@ -234,7 +234,7 @@ Text Domain:  FillurBasket
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #80b435;
+    color: #ff6600;
     margin-left: 0px;
     background: #fff;
     letter-spacing: 1px;
@@ -249,7 +249,7 @@ Text Domain:  FillurBasket
     font-weight: 400;
     color: #fff;
     margin-left: 0px;
-    background: #80b435;
+    background: #ff6600;
     letter-spacing: 1px;
     font-family: 'Oswald', sans-serif;
     border-radius: 999px;
@@ -264,7 +264,7 @@ Text Domain:  FillurBasket
     font-family: FontAwesome;
     display: inline-block !important;
     margin-left: 15px;
-    color: #80b435;
+    color: #ff6600;
     font-size: 18px;
 }
 

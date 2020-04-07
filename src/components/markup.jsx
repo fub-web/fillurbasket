@@ -25,7 +25,7 @@ class Markup extends Component {
       <BrowserRouter basename={""}>
         <Switch>
           <Route path="/" exact component={Index} />
-          <Route path="/404error" component={Error404} />
+
           <Route path="/about-us" component={About} />
           <Route path="/blog-detail" component={Blog} />
           <Route path="/blog" component={BlogDetails} />
@@ -42,6 +42,7 @@ class Markup extends Component {
           <Route path="/dashboard" component={Dashboard} />
           <Route path="/newsletter" component={Newsletter} />
           <Route path="/quickview" component={QuickView} />
+          <Route path="*" component={Error404} />
         </Switch>
       </BrowserRouter>
     );
